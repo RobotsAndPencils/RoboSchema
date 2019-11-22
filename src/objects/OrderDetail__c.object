@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Discount__c</fullName>
+        <label>Discount</label>
+        <type>Number</type>
+        <externalId>false</externalId>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <unique>false</unique>
+        <precision>11</precision>
+        <scale>7</scale>
+    </fields>
+    <fields>
+        <fullName>OrderID__c</fullName>
+        <label>Order ID</label>
+        <type>Number</type>
+        <externalId>false</externalId>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <unique>false</unique>
+        <precision>10</precision>
+        <scale>0</scale>
+    </fields>
+    <fields>
+        <fullName>ProductID__c</fullName>
+        <label>Product ID</label>
+        <type>Number</type>
+        <externalId>false</externalId>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <unique>false</unique>
+        <precision>10</precision>
+        <scale>0</scale>
+    </fields>
+    <fields>
+        <fullName>Quantity__c</fullName>
+        <label>Quantity</label>
+        <type>Number</type>
+        <externalId>false</externalId>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <unique>false</unique>
+        <precision>5</precision>
+        <scale>0</scale>
+    </fields>
+    <fields>
+        <fullName>UnitPrice__c</fullName>
+        <label>Unit Price</label>
+        <type>Currency</type>
+        <externalId>false</externalId>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <unique>false</unique>
+        <precision>16</precision>
+        <scale>2</scale>
+    </fields>
+    <label>Order Detail</label>
+    <nameField>
+        <displayFormat>{0000000}</displayFormat>
+        <label>{!label} Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Order Details</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

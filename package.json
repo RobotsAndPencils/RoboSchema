@@ -1,0 +1,29 @@
+{
+  "name": "roboschema",
+  "version": "1.0.0",
+  "description": "convert SQL to salesforce",
+  "main": "roboSchema1.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "json-2-csv": "^3.5.7",
+    "pluralize": "^8.0.0",
+    "rimraf": "^2.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobotsAndPencils/RoboSchema.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobotsAndPencils/RoboSchema/issues"
+  },
+  "homepage": "https://github.com/RobotsAndPencils/RoboSchema#readme"
+}
